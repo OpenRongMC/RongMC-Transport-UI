@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "rongmc_transport_ui",
+  "version": "0.2.0+26.3",
+  "name": "RongMC Transport UI",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "dev.rongmc.transportui.TransportUiSettings$Menu"
+    ],
+    "client": [
+      "dev.rongmc.transportui.TransportUiClient"
+    ]
+  },
+  "mixins": [
+    "rongmc-transport-ui.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "rongmc_mtr": "4.0.5-port.1+26.3"
+  },
+  "suggests": {
+    "oriel": "0.15.x",
+    "modmenu": "*"
+  },
+  "license": "GPL-3.0"
+}

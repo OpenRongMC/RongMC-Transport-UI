@@ -1,0 +1,6 @@
+version = '0.2.0+26.3'
+base { archivesName = 'rongmc-transport-ui' }
+dependencies {
+    compileOnly files('libs/oriel-fabric-26.3-0.15.0.jar')
+    compileOnly project(":yte")
+}

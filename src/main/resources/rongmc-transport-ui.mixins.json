@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.rongmc.transportui.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MtrModMenuMixin",
+    "YteModMenuMixin",
+    "OpenMtrSettingsMixin",
+    "ClassicMtrSettingsMixin",
+    "FilterButtonAppearanceMixin",
+    "MtrScreenParent"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "dev.rongmc.transportui.mixin.OptionalOrielMixins"
+}

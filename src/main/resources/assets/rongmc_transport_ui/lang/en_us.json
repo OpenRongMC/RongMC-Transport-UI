@@ -1,0 +1,17 @@
+{
+  "rongmc.transportui.title": "RongMC Transport UI",
+  "rongmc.transportui.oriel": "Transport interface: Oriel",
+  "rongmc.transportui.classic": "Transport interface: Classic",
+  "rongmc.transportui.save_failed": "Could not save the UI preference",
+  "rongmc.transportui.mtr": "Minecraft Transit Railway Settings",
+  "rongmc.transportui.announcements": "Chat announcements",
+  "rongmc.transportui.speech": "Text-to-speech announcements",
+  "rongmc.transportui.translucency": "Hide translucent parts",
+  "rongmc.transportui.language": "Display languages",
+  "rongmc.transportui.font": "Use MTR font",
+  "rongmc.transportui.shadows": "Disable shadows with shaders",
+  "rongmc.transportui.rail": "Use 3D rails by default",
+  "rongmc.transportui.texture": "Dynamic texture resolution",
+  "rongmc.transportui.oscillation": "Train oscillation",
+  "rongmc.transportui.style": "Interface…"
+}

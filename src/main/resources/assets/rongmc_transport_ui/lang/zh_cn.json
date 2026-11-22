@@ -1,0 +1,17 @@
+{
+  "rongmc.transportui.title": "RongMC 交通界面",
+  "rongmc.transportui.oriel": "交通界面：Oriel",
+  "rongmc.transportui.classic": "交通界面：旧版",
+  "rongmc.transportui.save_failed": "无法保存界面偏好",
+  "rongmc.transportui.mtr": "我的世界铁路设置",
+  "rongmc.transportui.announcements": "显示聊天广播",
+  "rongmc.transportui.speech": "使用语音播报",
+  "rongmc.transportui.translucency": "隐藏半透明部件",
+  "rongmc.transportui.language": "显示语言",
+  "rongmc.transportui.font": "使用 MTR 字体",
+  "rongmc.transportui.shadows": "光影下禁用阴影",
+  "rongmc.transportui.rail": "默认使用 3D 铁轨",
+  "rongmc.transportui.texture": "动态纹理分辨率",
+  "rongmc.transportui.oscillation": "列车晃动",
+  "rongmc.transportui.style": "界面风格…"
+}

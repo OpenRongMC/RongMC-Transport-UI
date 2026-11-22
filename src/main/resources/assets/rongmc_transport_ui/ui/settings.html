@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MTR</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; background: #111a20; color: #ebf2f2; font-size: 13px; }
+main { margin: 0 auto; padding: 12px 18px; width: 100%; max-width: 420px; height: 100vh; overflow-y: auto; }
+header { display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #526366; padding: 8px 0; margin-bottom: 8px; }
+h1 { flex: 1; font-size: 16px; margin: 0; }
+.row { display: flex; align-items: center; justify-content: space-between; min-height: 24px; gap: 6px; padding: 3px 0; border-bottom: 1px solid #25383c; }
+button { background: #29464b; color: #eef9fa; border: 1px solid #688286; min-width: 70px; padding: 2px 6px; }
+button:hover, button:focus { background: #3d646b; }
+button:disabled { color: #9fa9a9; }
+input { width: 90px; }
+footer { margin: 12px 0; }
+</style>
+</head>
+<body>
+<main>
+<header><h1 id="title">Minecraft Transit Railway</h1><button id="style" type="button"></button></header>
+<section id="options"></section>
+<footer class="row">
+<button id="support" type="button"></button>
+<button id="back" type="button"></button>
+</footer>
+</main>
+<script src="settings.js"></script>
+</body>
+</html>
