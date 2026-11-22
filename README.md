@@ -1,31 +1,23 @@
 # RongMC Transport UI
 
-[中文](#中文) | [English](#english)
+为 Minecraft Transit Railway（及 Yunzhu 等）设置界面提供 **Oriel UI** 外观切换与统一入口。
 
-## 中文
+## 功能
 
-本仓库发布的是 **RongMC** 对 `RongMC Transport UI` 的 Minecraft 26.3 Fabric 移植/维护或自研版本。
+- 在 Mod Menu / MTR 设置路径上，可选使用 Oriel 风格设置页（检测到 `oriel` 时启用相关 mixin）。
+- 统一打开 MTR / YTE 相关设置的入口与外观微调（过滤器按钮外观等）。
+- 本地偏好保存在配置目录，记住是否走 Oriel 模式。
 
-- Fabric mod id：`rongmc_transport_ui`（provides：`rongmc_transport_ui`）
-- 许可证：**GNU GPL v3.0**
-- 本仓库包含完整源码（orphan 发布，Contributors 仅 ycrrongos）。
-- 部分改动由 vibecoding（AI 辅助编程）完成，并由人工审阅与测试。
-- 贡献者（Contributors）：仅 [ycrrongos](https://github.com/ycrrongos)
+## 依赖
 
-### 许可
+- `rongmc_mtr`（或提供 `mtr` 的等价构建）
+- 可选：`oriel`（没有则回退经典设置页）
 
-以 GNU General Public License v3.0 发布（见 `LICENSE`）。若上游原作另有条款，移植改动部分仍按 GPL-3.0；使用时请同时尊重上游要求。
+## 已知限制
 
-## English
+- Oriel 未安装时只会走经典 UI，不算错误。
+- 强依赖 MTR 屏幕类名；MTR 大改 UI 后需要同步 mixin。
 
-**RongMC** Minecraft 26.3 Fabric port / maintenance / original build of `RongMC Transport UI`.
+## 许可
 
-- Fabric mod id: `rongmc_transport_ui` (provides: `rongmc_transport_ui`)
-- License: **GNU GPL v3.0**
-- This repository includes full source (orphan publish; contributor: ycrrongos only).
-- Some changes were made with vibecoding (AI-assisted coding), then reviewed and tested by humans.
-- Contributors: only [ycrrongos](https://github.com/ycrrongos)
-
-### License
-
-Released under GNU GPL v3.0 (see `LICENSE`). Respect upstream terms where applicable; RongMC changes are GPL-3.0.
+GPL-3.0（见 `LICENSE`）。Fabric id：`rongmc_transport_ui`。
