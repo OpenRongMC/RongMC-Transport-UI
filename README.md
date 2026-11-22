@@ -1,23 +1,35 @@
-# RongMC Transport UI
+# RongMC 交通界面
 
-为 Minecraft Transit Railway（及 Yunzhu 等）设置界面提供 **Oriel UI** 外观切换与统一入口。
+简体中文 · [English](./README.en.md)
 
-## 功能
+给 MTR 和共享界面的交通扩展增加 Oriel 外观选项。经典界面和 Oriel 界面都通过原有编辑流程工作，选择会记录在客户端配置。
 
-- 在 Mod Menu / MTR 设置路径上，可选使用 Oriel 风格设置页（检测到 `oriel` 时启用相关 mixin）。
-- 统一打开 MTR / YTE 相关设置的入口与外观微调（过滤器按钮外观等）。
-- 本地偏好保存在配置目录，记住是否走 Oriel 模式。
+## 下载与安装
 
-## 依赖
+- 版本 · [v0.1.0+26.3](https://github.com/OpenRongMC/RongMC-Transport-UI/releases/tag/v0.1.0%2B26.3) (已发布)
+- 下载文件 · `rongmc-transport-ui-1.0.0-port.1.26.3.jar`
+- 运行环境 · Minecraft Java 26.3, Fabric, Java 25
+- Fabric Loader · `>=0.20.1`
+- Fabric 模组 ID · `rongmc_transport_ui`
+- JAR 声明的依赖 · [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
 
-- `rongmc_mtr`（或提供 `mtr` 的等价构建）
-- 可选：`oriel`（没有则回退经典设置页）
+把发行 JAR 放入对应实例的 `mods/` 目录。只装在客户端，配套同系列 MTR。需要 Oriel 外观时加装 Oriel。缺少 Oriel 时可继续使用经典模式。
 
-## 已知限制
+## 如何验证
 
-- Oriel 未安装时只会走经典 UI，不算错误。
-- 强依赖 MTR 屏幕类名；MTR 大改 UI 后需要同步 mixin。
+从 MTR 设置的「界面」入口或 Mod Menu 切换模式。回到 MTR 设置检查是否保存，并试用一个 YTE 页面和原来可输入、保存的控件。
 
-## 许可
+## 开发
 
-GPL-3.0（见 `LICENSE`）。Fabric id：`rongmc_transport_ui`。
+构建入口见 [`build.sh`](./build.sh)。运行前检查脚本需要的工作区目录与依赖。
+
+## 文档与反馈
+
+- [原 README（旧版指南、贡献者与署名）](https://github.com/OpenRongMC/RongMC-Transport-UI/blob/3d8716d4273593d0cc897f0e45e749c0f7a9f001/README.md)
+- [上游项目与文档](https://github.com/Rinorsi/Oriel-UI)
+- [云竹交通扩展（YTE）](https://github.com/OpenRongMC/Yunzhu-Transit)
+- [报告 RongMC 移植问题](https://github.com/OpenRongMC/RongMC-Transport-UI/issues) · 请附游戏版本、两端 JAR 文件名、复现步骤和相关日志。
+
+## 许可与署名
+
+请参阅本仓库的 [LICENSE](./LICENSE) 及原项目的许可、署名和第三方资源说明。
