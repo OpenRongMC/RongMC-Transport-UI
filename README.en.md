@@ -9,9 +9,11 @@ Give MTR and supported addon screens an Oriel appearance, with a switch back to 
 
 Open the Interface section in MTR Settings to choose Classic or Oriel. Classic is available without Oriel. The adapter styles backgrounds and existing controls on the shared transport screens.
 
+The main branch uses translucent backgrounds on shared screens. Pressing Esc in MTR Settings returns to the dashboard when opened from there.
+
 ## Installation
 
-Download **v0.1.0+26.3** from [GitHub Releases](https://github.com/OpenRongMC/RongMC-Transport-UI/releases/tag/v0.1.0%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. See [MTR](https://github.com/OpenRongMC/Minecraft-Transit-Railway), [Oriel](https://github.com/Rinorsi/Oriel-UI) for companion downloads. Place the release JAR in the instance’s `mods/` directory. Install it on clients with the matching MTR series. Add Oriel for the new appearance; Classic remains available when Oriel is absent.
+Download **v0.2.0+26.3** from [GitHub Releases](https://github.com/OpenRongMC/RongMC-Transport-UI/releases/tag/v0.2.0%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. See [MTR](https://github.com/OpenRongMC/Minecraft-Transit-Railway), [Oriel](https://github.com/Rinorsi/Oriel-UI) for companion downloads. Place the release JAR in the instance’s `mods/` directory. Install it on clients with the matching MTR series. Add Oriel for the new appearance; Classic remains available when Oriel is absent.
 
 ## Original project
 

@@ -13,8 +13,9 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 abstract class OpenMtrSettingsMixin {
     @ModifyVariable(method = "openScreen", at = @At("HEAD"), argsOnly = true)
     private Screen rongmc$selectSettings(Screen screen) {
-        if (screen != null && screen.data instanceof ConfigScreen && TransportUiSettings.useOriel()) {
-            return new Screen(new OrielMtrSettings(net.minecraft.client.Minecraft.getInstance().gui.screen()));
+        if (screen != null && screen.data instanceof ConfigScreen config && TransportUiSettings.useOriel()) {
+            final Screen parent = ((MtrScreenParent) config).rongmc$getPreviousScreen();
+            return new Screen(new OrielMtrSettings(parent == null ? null : parent.data));
         }
         return screen;
     }
